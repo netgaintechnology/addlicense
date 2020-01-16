@@ -47,10 +47,10 @@ Flags:
 var (
 	holder   = flag.String("c", "Netgain Technologies, LLC", "copyright holder")
 	license  = flag.String("l", "netgain", "license type: netgain, apache, bsd, mit")
-	purpose  = flag.String("p", "", "purpose of the code in the file")
+	purpose  = flag.String("p", "purposereplace", "purpose of the code in the file")
 	licensef = flag.String("f", "", "license file")
 	year     = flag.String("y", fmt.Sprint(time.Now().Year()), "copyright year(s)")
-	author   = flag.String("a", "<replaceme>", "Author Name")
+	author   = flag.String("a", "authorreplace", "Author Name")
 	verbose  = flag.Bool("v", false, "verbose mode: print the name of the files that are modified")
 )
 
