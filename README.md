@@ -16,11 +16,14 @@ to any file that already has one.
 
     -c copyright holder (defaults to "Google LLC")
     -f custom license file (no default)
-    -l license type: apache, bsd, mit (defaults to "apache")
+    -l license type: netgain, apache, bsd, mit (defaults to "netgain")
+    -p purpose of file: inserts a string for later replacement, "purposereplace", or inserts purpose statement of code
+    -a author of file: inserts a string for later replacement, "authorreplace", or inserts author name
     -y year (defaults to current year)
+    -v verbose, prints names of all files modifed
 
 The pattern argument can be provided multiple times, and may also refer
-to single files.
+to single files.  The pattern arg is either an individual filename or a directory.
 
 ## license
 
